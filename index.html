@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <script>
+    // let num1 =parseInt (prompt('what is your height?'))
+    // let num2 =parseInt(prompt ('what is your age'))
+    // let product = num1*num2
+    // alert('calculatig the product')
+    // document.write('result is :' + product)
+    // let a = 3
+    // let b = 'xyz'
+    // let c = a+b
+    // document.write(a + '<br/>')
+    // document.write(b)
+    // document.write('<br/>')
+    //  document.write(a+b)
+    // document.write('<br/>')
+    // document.write(a/b)
+    // document.write('<br/>')
+    // document.write(a % b)
+    //  document.write('<br/>')
+    // document.write(c +'<br/>')
+  //   const c = a - b
+
+
+
+  // const qust1 = parseInt(prompt('What is your state of origin'))
+  // const qust2 = parseInt(prompt('Place or residency'))
+  // const answer = qust1*qust2
+  // alert('Calclate the product')
+  // document.write('result is: '+ answer)
+  //   document.write("Result is: " +(a-b))
+
+  let javaScriptMark = parseInt(prompt('what is your javascript score?'))
+  let javaMark = parseInt(prompt('what is your java score?'))
+  let notesMark = parseInt(prompt('what is your notes mark?'))
+
+  let total = javaScriptMark + javaMark + notesMark
+  let average = total/3
+
+  if(javaScriptMark >=35 && javaMark >= 35 && notesMark >=35)
+  {
+    document.write('result:Passed' + '<br/>' )
+      if(average >= 35  && average <60)
+      {
+      document.write('Grade:C ')
+    }
+    else if(average >=60 && average <69 ){
+      document.write('Grade: B'+'<br/>')
+    }
+   
+  else{
+    document.write('Grade:A'+'<br/>')
+   }
+  }
+  else{
+    document.write('result:Failed'+'<br/>')
+  }
+
+  document.write('your total score is ' + total + '<br/>')
+
+   </script>
+  <script src="./index.js"></script> 
+</body>
+</html>
